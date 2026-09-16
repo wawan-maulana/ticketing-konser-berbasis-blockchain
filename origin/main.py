@@ -21,6 +21,15 @@ blockchain.add_block({
     "description": "Menolak duplikasi token dan mengunci aturan batas harga jual sekunder."
 })
 
+blockchain.add_block({
+    "event": "Conser Musik Indie 2026",
+    "token_id": "NFT-TIX-001",
+    "actor": "Primary Buyer",
+    "owner_wallet": "0xWalletBuyerA111",
+    "action": "Purchase Ticket",
+    "price_paid": "Rp 500.000"
+})
+
 for block in blockchain.chain:
     print("=" * 50)
     print("INDEX :", block.index)
