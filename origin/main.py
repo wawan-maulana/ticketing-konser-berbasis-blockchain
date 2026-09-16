@@ -12,6 +12,15 @@ blockchain.add_block({
     "max_resale_price": "Rp 550.000"
 })
 
+blockchain.add_block({
+    "event": "Conser Musik Indie 2026",
+    "token_id": "NFT-TIX-001",
+    "actor": "Smart Contract Protocol",
+    "action": "Enforce Anti-Scalping Rule",
+    "status": "Verified & Immutable",
+    "description": "Menolak duplikasi token dan mengunci aturan batas harga jual sekunder."
+})
+
 for block in blockchain.chain:
     print("=" * 50)
     print("INDEX :", block.index)
