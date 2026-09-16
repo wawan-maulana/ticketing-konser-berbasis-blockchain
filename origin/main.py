@@ -41,6 +41,15 @@ blockchain.add_block({
     "scalping_check": "Passed (Under Max Price Cap)"
 })
 
+blockchain.add_block({
+    "event": "Conser Musik Indie 2026",
+    "token_id": "NFT-TIX-001",
+    "actor": "Gate Security Validator",
+    "current_owner": "0xWalletBuyerB222",
+    "action": "Check-in Scan",
+    "status": "Valid NFT - Access Granted"
+})
+
 for block in blockchain.chain:
     print("=" * 50)
     print("INDEX :", block.index)
