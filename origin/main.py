@@ -3,17 +3,13 @@ from blockchain import Blockchain
 blockchain = Blockchain()
 
 blockchain.add_block({
-    "batch_id": "BATCH-001",
-    "product": "Coffee Arabica",
-    "actor": "Petani",
-    "location": "Kuningan"
-})
-
-blockchain.add_block({
-    "batch_id": "BATCH-001",
-    "product": "Coffee Arabica",
-    "actor": "Distributor",
-    "location": "Cirebon"
+    "event": "Conser Musik Indie 2026",
+    "token_id": "NFT-TIX-001",
+    "contract_address": "0xSmartContractTicket123",
+    "actor": "Promotor",
+    "action": "Mint NFT Ticket",
+    "face_value": "Rp 500.000",
+    "max_resale_price": "Rp 550.000"
 })
 
 for block in blockchain.chain:
