@@ -30,6 +30,17 @@ blockchain.add_block({
     "price_paid": "Rp 500.000"
 })
 
+blockchain.add_block({
+    "event": "Conser Musik Indie 2026",
+    "token_id": "NFT-TIX-001",
+    "actor": "Secondary Marketplace",
+    "action": "Resale Transfer",
+    "previous_owner": "0xWalletBuyerA111",
+    "new_owner": "0xWalletBuyerB222",
+    "resale_price": "Rp 550.000",
+    "scalping_check": "Passed (Under Max Price Cap)"
+})
+
 for block in blockchain.chain:
     print("=" * 50)
     print("INDEX :", block.index)
