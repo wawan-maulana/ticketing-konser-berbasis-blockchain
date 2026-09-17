@@ -1,4 +1,4 @@
-from main.blockchain import Blockchain
+from blockchain import Blockchain
 
 blockchain = Blockchain()
 
